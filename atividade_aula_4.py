@@ -1,18 +1,13 @@
-"""
 #Questão 1: Faça um programa que leia um número inteiro e imprima:
 
 print('Imprima um número inteiro')
 numero = int(input('o numero inteiro é: '))
 print(f'o numero inteiro é {numero} ')
 
-________________________________________________________________________________________________________________________
-
 #Questão 2
 
 real = 200
 print(real)
-
-________________________________________________________________________________________________________________________
 
 #Questão 3: Peça o usuário que imprima três valores e em seguida a soma deles:
 
@@ -25,7 +20,6 @@ soma = valor1 + valor2 + valor3
 
 print(f'o resultado da soma é {soma}')
 
-________________________________________________________________________________________________________________________
 
 #Questão 4
 
@@ -35,8 +29,6 @@ print(real1)
 real1 = real1 ^ 2
 print(real1)
 
-________________________________________________________________________________________________________________________
-
 #Questão 5
 
 real2 = 20
@@ -45,7 +37,7 @@ print(real2)
 real2 = real2 / 5
 print(real2)
 
-________________________________________________________________________________________________________________________
+
 
 #Questão 6: Leia a temperatua em graus Fahrenheit e apresente convertida em C:
 
@@ -54,7 +46,7 @@ tempc = float(input('temperatura em celsius: '))
 tempf = float(tempc * (9/5) + 32)
 print(f'A temperatura em graus  é {tempf} ºF')
 
-________________________________________________________________________________________________________________________
+
 
 #Questão 7: Leia a temperatua em graus Fahrenheit e apresente convertida em C:
 
@@ -63,7 +55,7 @@ tempf = float(input('Temperatura em F:'))
 tempc = float(5 * (tempf - 32) / 9)
 print(f'A temperatura em C é {tempc}')
 
-________________________________________________________________________________________________________________________
+
 
 #Questão 9: Leia uma temperatura em graus Kevin e a converta em graus celsius:
 
@@ -72,7 +64,7 @@ tempk = float(input('A temperatura em graus Kelvin é: '))
 tempc = float(tempk - 273.15)
 print(f'A temperatura em graus celsius é {tempc}')
 
-________________________________________________________________________________________________________________________
+
 
 #Questão 10: Leia a velocidade em Km/h e apresente em m/s.
 
@@ -81,7 +73,6 @@ velkm = float(input('A velocidade em Km/h é: '))
 velms = float(velkm/3.6)
 print(f'A velocididade em m/s é {velms}')
 
-________________________________________________________________________________________________________________________
 
 #Questão 16: Leia um valor com comprimento em polegadas e o apresente em centímetros:
 
@@ -91,7 +82,7 @@ centimetros = float(polegadas * 2.54)
 
 print(f'O comprimento em polegadas são {centimetros} cms')
 
-________________________________________________________________________________________________________________________
+
 
 #QUESTÃO 28: Faça a leitura de três numeros e faça a soma dos quadrados
 
@@ -104,7 +95,7 @@ total = soma**2
 
 print(f'A soma dos quadrados é: {total}')
 
-________________________________________________________________________________________________________________________
+
 
 #QUESTÃO 29: Leia 4 notas, calcule a média aritmetica e imprima o resultado:
 
@@ -122,7 +113,7 @@ if soma >= 7:
 else:
     print('reprovado')
 
-________________________________________________________________________________________________________________________
+
 
 #QUESTÃO 30: Transforme um valor de Real para dolar.
 
@@ -132,7 +123,7 @@ dolar = float(real * 0.19)
 
 print(f'O valor em dólar é a {dolar}')
 
-________________________________________________________________________________________________________________________
+
 
 #QUESTÃO 31: Leia um número inteiro e escreva seu sucessor e antecessor:
 
@@ -143,7 +134,7 @@ antecessor = int(numero - 1)
 
 print(f'O antecessor é igual a {antecessor} e o sucessor é {sucessor}')
 
-________________________________________________________________________________________________________________________
+
 
 #QUESTÃO 32: Leia um numero inteiro e imprima a soma do sucessor de seu triplo com o antecessor de seu dobro:
 
@@ -155,7 +146,6 @@ soma = (sucessor * 3 + antecessor *2)
 
 print(f'Esse é a {soma}: ')
 
-________________________________________________________________________________________________________________________
 
 #Questão 33: Leia o tamanho do lado de um quadrado e consiga sua área:
 
@@ -165,8 +155,6 @@ area = int(lado * lado)
 
 print(f'A área de um quadrado é igual a {area} m2')
 
-________________________________________________________________________________________________________________________
-
 #QUESTÃO 34
 print('Calcule a área de um círculo')
 raio = float(input('O raio do círculo é igual a:'))
@@ -174,7 +162,6 @@ area = float(3.14 * raio**2)
 
 print(f'A área do círculo é equivalente a {area} cm2')
 
-________________________________________________________________________________________________________________________
 
 #QUESTÃO 38: Leia o salário de um funcionário. Calcule e imprima o valor de um novo salário, sabendo que ele recebeu
 #aumento de 25%
@@ -186,8 +173,6 @@ novo = salario + ajuste
 
 print(f'O novo salário do funcionário ajustado é de {novo} reais')
 
-
-________________________________________________________________________________________________________________________
 
 #QUESTÃO 39
 
@@ -203,7 +188,7 @@ print(f'Jogador 3 receberá {p3 * total}')
 
 total2 = p1 + p2 + p3
 print(total2)
-________________________________________________________________________________________________________________________
+
 
 #QUESTÃO 40
 
@@ -215,7 +200,7 @@ liquido = int(valor - desconto)
 
 print(f'O trabalhador receberá um valor líquido de {liquido} reais')
 
-________________________________________________________________________________________________________________________
+
 #QUESTÃO 41
 
 print('Cálculo do valor-hora de trabalho')
@@ -227,7 +212,6 @@ salario = total + total2
 
 print(f'O trabalhador receberá igual a {salario} reais')
 
-________________________________________________________________________________________________________________________
 
 
 #Questão 42
@@ -240,7 +224,6 @@ salario2 = salario - desconto + gratificacao
 
 print(f'O salario-base do trabalhador é {salario2} reais')
 
-________________________________________________________________________________________________________________________
 
 #QUESTA0 44
 
@@ -254,7 +237,7 @@ comissao2 = total * 0.05
 print(f'O desconto À vista é de {desconto}, as parcelas são de {parcelas}')
 print(f'A comissão a vista é de {comissao1} e parcelada é de {comissao2}')
 
-________________________________________________________________________________________________________________________
+
 
 #QUESTÃO 46
 
@@ -266,7 +249,7 @@ while len(numero) !=3 :
 print(numero[::-1])
 
 
-________________________________________________________________________________________________________________________
+
 
 #QUESTÃO 47
 
@@ -278,7 +261,7 @@ print(str(numero[2]))
 print(str(numero[3]))
 
 
-________________________________________________________________________________________________________________________
+
 
 #QUESTÃO 48
 
@@ -289,8 +272,6 @@ horas = segundos/3600
 
 print(f'São {horas}, {minutos}, {segundos} ')
 
-
-________________________________________________________________________________________________________________________
 
 # Exercicio 49
 
@@ -324,7 +305,7 @@ segundos_finalmente = segundos_final + segundos_final_duracao
 
 print(f'O tempo final é {horas_final} horas, {minutos_final} minutos e {segundos_finalmente} segundos')
 
-________________________________________________________________________________________________________________________
+
 #Questão 50
 
 print('Ano de nascimento a partir da data atual')
@@ -334,7 +315,6 @@ ano_de_nascimento = ano_atual - idade
 
 print(f'O ano de nascimento é igual a: {ano_de_nascimento}')
 
-________________________________________________________________________________________________________________________
 
 #Questão 51
 
@@ -347,7 +327,7 @@ R = ((x2 - x1)**2 + (y2 - y1)**2)**0.5
 
 print(f'O valor das coordenada é igual a: {R} ')
 
-________________________________________________________________________________________________________________________
+
 
 #QUESTÃO 52
 
@@ -375,13 +355,7 @@ print(f'O prêmio do jogador 2 é {premio2}')
 print(f'O prêmio do jogador 3 é {premio3}')
 print(f'O prêmio do jogador 4 é {premio4}')
 
-________________________________________________________________________________________________________________________
 
-
-
-________________________________________________________________________________________________________________________
-
-"""
 #QUESTÃO 53
 
 print('Medindo as dimensões de um terreno')
@@ -393,4 +367,7 @@ tela_preco = 20
 custo = dimensao**0.5 * 20
 
 print(f'O custo da tela por m é de {custo}')
+
+
+
 
